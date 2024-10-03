@@ -1,5 +1,5 @@
 body{
-    background-color:yellow;
+    background-color:#f4d03f;
 }
 
 img{
@@ -14,7 +14,7 @@ img{
 
 article{
     width: 1400px;
-    height: 800px;
+    height: 1000px;
     position: relative;
     bottom: 350px;
 
@@ -28,14 +28,14 @@ article{
     
 
 h1{
-    color: yellow;
+    color: #f4d03f;
 }
 
 h2{
     position: relative;
     bottom: 10px;
    text-align: center;
-    background-color:#0413e2;
+    background-color:#3498db;
     color: white;
     width: 1450px;
     border: 1px solid #bbb;
@@ -48,17 +48,17 @@ footer{
     position: relative;
     bottom: 400px;
    text-align: center;
-    background-color:#0413e2;
+    background-color:#3498db;
     color: white;
     width: 1470px;
-    border: 1px solid #bbb;
+    border: 1px solid;
     padding: 1em;
     margin: auto;
     font-weight: bold;
 }
 
-section {
-    background-color: blue;
+.carre1 {
+    background-color: #3498db;
     width : 200px; 
     height :120px;
     
@@ -72,3 +72,27 @@ li,a{
    
     text-align: center;
 }
+
+
+.carre2 {
+    background-color: #3498db;
+    width : 400px; 
+    height :400px;
+    float: right;
+    
+    display: flex;
+    left: 50px;
+    bottom: 100px;
+   
+}
+
+
+  .texte2,h3{
+    color: white;
+    text-align: center;
+  }
+
+  .Matt{
+    width: 200px;
+    height: 200px;
+  }
