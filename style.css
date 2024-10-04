@@ -12,24 +12,11 @@ img{
         
 }
 
-article{
-    width: 1400px;
-    height: 1000px;
-    position: relative;
-    bottom: 350px;
 
-    border: 2px solid #bbb;
-    padding: 3em;
-    margin: 0 auto;
-    font-family: Verdana, sans-serif;
-    background-color:white;
-    text-align: left;
-    }
     
 
-h1{
-    color: #f4d03f;
-}
+
+
 
 h2{
     position: relative;
@@ -44,47 +31,11 @@ h2{
     font-weight: bold;
 }
 
-footer{
-    position: relative;
-    bottom: 400px;
-   text-align: center;
-    background-color:#3498db;
-    color: white;
-    width: 1470px;
-    border: 1px solid;
-    padding: 1em;
-    margin: auto;
-    font-weight: bold;
-}
-
-.carre1 {
-    background-color: #3498db;
-    width : 200px; 
-    height :120px;
-    
-    display: flex;
-    left: 50px;
-    bottom: 100px;
-  }
-
-li,a{
-    color: white;
-   
-    text-align: center;
-}
 
 
-.carre2 {
-    background-color: #3498db;
-    width : 400px; 
-    height :400px;
-    float: right;
-    
-    display: flex;
-    left: 50px;
-    bottom: 100px;
-   
-}
+
+
+
 
 
   .texte2,h3{
@@ -92,7 +43,89 @@ li,a{
     text-align: center;
   }
 
-  .Matt{
+
+
+
+
+
+li, a {
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    padding: 10px 0;
+}
+
+
+
+
+
+
+h1 {
+    color: #f4d03f;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+
+p {
+    margin-top: 0; 
+    margin-right: 320px; 
+    margin-left: 220px; 
+    margin-bottom: 20px; 
+    line-height: 1.5; 
+}
+
+article {
+    width: 1400px;
+    height: auto;
+    position: relative;
+    border: 2px solid #bbb;
+    padding: 0 3em; 
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    text-align: left;
+    display: block; }
+
+.carre1 {
+    background-color: #3498db;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.carre2 {
+    background-color: #3498db;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+
+
+.Matt {
     width: 200px;
     height: 200px;
-  }
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    width: 100%;
+    border: 1px solid;
+    padding: 1em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
